@@ -1,7 +1,6 @@
 #!/bin/bash
 
-function Suma(){
+function suma(){
      echo "$1 + $2" | bc -l
 }
 
-Suma $1 $2
